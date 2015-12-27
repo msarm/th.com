@@ -1,7 +1,7 @@
 # Site settings
 title: TryHomeo.com | Delivering the best in Homeopathy.
 description: "Our clinic delivers the best in Homeopathy."
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/th.com" # the subpath of your site, e.g. /blog
 url: "http://msarm.github.io/th.com/" # the name of your domain
 logo_url: img/logo2.png
 site_name: TryHomeo.com
