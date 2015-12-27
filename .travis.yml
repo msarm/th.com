@@ -12,10 +12,10 @@ after_success:
 - touch .nojekyll
 - git add -A .
 - git commit -m "Generated Jekyll site by Travis CI - ${TRAVIS_BUILD_NUMBER}"
-- git push --force "https://${DEPLOY_KEY}@${GITHUB_REPO}" HEAD:${REPO_TARGET_BRANCH}
+- git push --force "git@github.com${DEPLOY_KEY}@${GITHUB_REPO}" HEAD:${REPO_TARGET_BRANCH}
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - GITHUB_REPO: git@github.com:msarm/th.com.git
+  - GITHUB_REPO: msarm/th.com.git
   - REPO_TARGET_BRANCH: gh-pages
   - secure: jTbHdT2NZTLvnVyfrOmVrb5DL2foUqbCwWJSX3MMvX4KZ1W+e+lDWUzTn3Nca/Q0zT/9Ddu+DYf4/UpQjpqPhvghsEK+xewIruHuPrX0Xv+p2/tn6TLNRZqWI7pktcKYzCvRRM7uHWcs7zKD6cfjJw1BumWC4ACxZEESJgs4TqgfLLvt+P5iKaw7FEmtuwjAIztPtTnTkWYG5xw/XwP0YJ/VzBQJb7IAOTU2khqjbrIq7WgNx9nfYINLgXEO9T8WQUzhT2JHLIcpfHQADy1eUfDFqeld5ZuXRQ+DfyreXqFmg/LU8KfzKNU5f6JDHVa2gipup7H1e5aCji0VnzvPzKqM5XN+qzr35q3kE0AZAmnhCuIgz021lyxs0RycJhb5teBO4VoT+8AblISOPmvdaymdrHkK73YBd66MaN9z368qWGp13P6WZKMP4SCgxCD7K0bF0YUbdeeDK0VgaF978Y03t6A3FDegss/fzs4sRyENI8sRY2tYs3HTUtzKPSKbuhDM3Tp3+ideox7WphWgWTnzNVHDK/TmfkFANTZyRIeTrzni+qeabFoTPQjXoE44Vk0VgdqmqHWZOxS81KupHfslibQNyp5ISKg8cvIYjO13ViGenAuu6F1I0pjIG16CzEenvkmFDswn9bnCte6gKdouGLSQY/wEfy85xlYB8lg=
