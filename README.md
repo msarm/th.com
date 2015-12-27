@@ -4,3 +4,6 @@ A single page Jekyll theme for dental clinics. It's easily customizable and resp
 
 Here is a [live Demo](http://obaez.com/dentistsmile/)
 
+http://logomakr.com/8guh0Z
+http://logomakr.com/8jZ75V
+http://logomakr.com/1hpDxB
