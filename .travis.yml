@@ -1,0 +1,21 @@
+language: ruby
+rvm:
+- 2.2
+script:
+- bundle exec jekyll build
+after_success:
+- git clone https://$GITHUB_REPO
+- cd $(basename ${GITHUB_REPO%.git})
+- git config user.name "Travis CI"
+- git config user.email ${EMAIL}
+- rsync -az --delete --exclude '.git*' ../_site/ .
+- touch .nojekyll
+- git add -A .
+- git commit -m "Generated Jekyll site by Travis CI - ${TRAVIS_BUILD_NUMBER}"
+- git push --force "https://${DEPLOY_KEY}@${GITHUB_REPO}" HEAD:${REPO_TARGET_BRANCH}
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - GITHUB_REPO: github.com/msarm/th.com.git
+  - REPO_TARGET_BRANCH: gh-pages
+  - secure: uD7mT2P44wnbivdcxjEZrKO9SuFsmpNOxIK11UpTVCXH/S4C4gf22oVyWtfWXE/RPEFO258Qw0EwdA/6tg7p2LC4WTJeOmzmsXtxxU4x782fT4kyg8kz9/oqYMFRlfAlN6lrXQg5yQAKwidEKskyYCOnBighoTA9ZXC7wsWP1ysxDvvFHZoRzJS4CefvMO5GthbK/swTfKXMYxb6dW8lGYSGvs6NkmewsaxYiXKJZEzOs9qyT5hW3ttffTSuBmTdW9VGvp0a4VKn64OBz6qG7X/TC4ejd5IZ4OoGBqN1ZqkzytTbphf12s819qW5MUGiv9HIak8PDvOi4WI/kNlhEnAuH5+tX0LrhhRjBUSj95qbAe7ltWP4RcILKIHsLHUfypd56ATJKsatt0K5JJWGnCotF1hLbnCS4PlCkDfwjXxgAhI7cvbp7TM3a0d1aHyZ6e3Yc3yzdxmNwRzvZQ7nTPhqE2sxrKUjW1dPCzh5BdOAOitpC5zBkxbKbSXSraZkXBcOy6qgfmo3ZstNBXCDqbB0heoQzqTkR64kuMEoNbwkReM49kPWqLSMWMceKIBevzIyWijPDnHugR7syQB2dL/6H7c4Z6dMySlkQGvCSVau5R/7K3cWaCdGUMjMLJtLCPW5Zy+g5re4HqADqEpQ3yVUP+I1YHMNdvs9Ss/OeDM=
