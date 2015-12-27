@@ -6,7 +6,6 @@ script:
 after_success:
 - git clone https://$GITHUB_REPO
 - cd $(basename ${GITHUB_REPO%.git})
-- git config user.name "Travis CI"
 - git config user.email ${EMAIL}
 - rsync -az --delete --exclude '.git*' ../_site/ .
 - touch .nojekyll
