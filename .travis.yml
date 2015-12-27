@@ -6,6 +6,7 @@ script:
 after_success:
 - git clone https://$GITHUB_REPO
 - cd $(basename ${GITHUB_REPO%.git})
+- git config user.name "Travis CI"
 - git config user.email ${EMAIL}
 - rsync -az --delete --exclude '.git*' ../_site/ .
 - touch .nojekyll
@@ -18,3 +19,4 @@ env:
   - GITHUB_REPO: github.com/msarm/th.com.git
   - REPO_TARGET_BRANCH: gh-pages
   - secure: uD7mT2P44wnbivdcxjEZrKO9SuFsmpNOxIK11UpTVCXH/S4C4gf22oVyWtfWXE/RPEFO258Qw0EwdA/6tg7p2LC4WTJeOmzmsXtxxU4x782fT4kyg8kz9/oqYMFRlfAlN6lrXQg5yQAKwidEKskyYCOnBighoTA9ZXC7wsWP1ysxDvvFHZoRzJS4CefvMO5GthbK/swTfKXMYxb6dW8lGYSGvs6NkmewsaxYiXKJZEzOs9qyT5hW3ttffTSuBmTdW9VGvp0a4VKn64OBz6qG7X/TC4ejd5IZ4OoGBqN1ZqkzytTbphf12s819qW5MUGiv9HIak8PDvOi4WI/kNlhEnAuH5+tX0LrhhRjBUSj95qbAe7ltWP4RcILKIHsLHUfypd56ATJKsatt0K5JJWGnCotF1hLbnCS4PlCkDfwjXxgAhI7cvbp7TM3a0d1aHyZ6e3Yc3yzdxmNwRzvZQ7nTPhqE2sxrKUjW1dPCzh5BdOAOitpC5zBkxbKbSXSraZkXBcOy6qgfmo3ZstNBXCDqbB0heoQzqTkR64kuMEoNbwkReM49kPWqLSMWMceKIBevzIyWijPDnHugR7syQB2dL/6H7c4Z6dMySlkQGvCSVau5R/7K3cWaCdGUMjMLJtLCPW5Zy+g5re4HqADqEpQ3yVUP+I1YHMNdvs9Ss/OeDM=
+  - secure: OJLBhWuwrxUrmCbgPPGKf5wNRe6d6117Rx9lqdLnt4UPO9t/y28fKrh4aczskZUzFbPn9q0crxqKBvN562WRUeKOpkVhWkQL/eNF3+A120cOnzYPiQVMI4XCtyben3/SzfgjADGfp+pI/7F6JGX81UmeSjmYt52C4lk9wqh6/BXaBWB5LuYWG7pobDyPHcdau95oH0bKXpCCKmlxMcpygSnglOA7EHN7U8+VZW2t++5Bu8IIMCFCTwlwC0SWYQB9CNUzBMGL0NKykpm91tbeP4L+niwO/5Bg/KW/CbNqiwkrCeFD8zGx4hE43mdTDieGHOJF/Th/WO37vt9QXrklZIP11jsVKzzRtKtccGsyNBDQAANJ/DoYgjmsfZApmG53y+QbOs6N0fwR5Vs8i1aWQKWL1526K9O3l76Sd9o7WC7S2vCuO4JemOuzfE9awQWXeqQx7uwmGKkQaQ8DkiKmtvNuGiMs8f2UEWJwWAI19Eqy4lzwfqOSGnJewS2u0L4HuXTa4p46M1EoO+vptKnIPvqmXrC/I5JSlbLgdGyfE4dXBoIjWs3kGITUcyWQo17aKY1p+sNfTkp/gQMHilOPYTGMpdJT0GTny4Ss5HW/RyKYDOHmnvhiH5nz+QbqBG/EWaneII84Amm/ooSpQ0aIGXqR6jGPXV0ZNdP+KRF7Rps=
