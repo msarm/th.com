@@ -1,0 +1,28 @@
+# tell Travis to spin up a ruby 2.2.0 environment
+language: ruby
+rvm:
+- 2.2
+
+script:
+- bundle exec jekyll build
+
+# after building, copy the site into the gh-pages branch
+# and push back to Github
+after_success:
+- git clone https://$GITHUB_REPO
+- cd $(basename ${GITHUB_REPO%.git})
+- git config user.name "Travis CI"
+- git config user.email ${EMAIL}
+- rsync -az --delete --exclude '.git*' ../_site/ .
+- touch .nojekyll
+- git add -A .
+- git commit -m "Generated Jekyll site by Travis CI - ${TRAVIS_BUILD_NUMBER}"
+- git push --force "https://${DEPLOY_KEY}@${GITHUB_REPO}" HEAD:${REPO_TARGET_BRANCH}
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - GITHUB_REPO: github.com/msarm/th.com.git
+  - REPO_TARGET_BRANCH: gh-pages
+  - secure: jTbtravis encrypt DEPLOY_KEY=token --addHdT2NZTLvnVyfrOmVrb5DL2foUqbCwWJSX3MMvX4KZ1W+e+lDWUzTn3Nca/Q0zT/9Ddu+DYf4/UpQjpqPhvghsEK+xewIruHuPrX0Xv+p2/tn6TLNRZqWI7pktcKYzCvRRM7uHWcs7zKD6cfjJw1BumWC4ACxZEESJgs4TqgfLLvt+P5iKaw7FEmtuwjAIztPtTnTkWYG5xw/XwP0YJ/VzBQJb7IAOTU2khqjbrIq7WgNx9nfYINLgXEO9T8WQUzhT2JHLIcpfHQADy1eUfDFqeld5ZuXRQ+DfyreXqFmg/LU8KfzKNU5f6JDHVa2gipup7H1e5aCji0VnzvPzKqM5XN+qzr35q3kE0AZAmnhCuIgz021lyxs0RycJhb5teBO4VoT+8AblISOPmvdaymdrHkK73YBd66MaN9z368qWGp13P6WZKMP4SCgxCD7K0bF0YUbdeeDK0VgaF978Y03t6A3FDegss/fzs4sRyENI8sRY2tYs3HTUtzKPSKbuhDM3Tp3+ideox7WphWgWTnzNVHDK/TmfkFANTZyRIeTrzni+qeabFoTPQjXoE44Vk0VgdqmqHWZOxS81KupHfslibQNyp5ISKg8cvIYjO13ViGenAuu6F1I0pjIG16CzEenvkmFDswn9bnCte6gKdouGLSQY/wEfy85xlYB8lg=
+  - secure: M54aZ7vqfxe/GBsCUoUuAj6mRLWgp2XWcFgdHFyC3TQySKvgZIqghFT0H7C7alSNnu1clPftDXtGDfSO2hvJdY7o8RsvsU5yQiK5PADcoIZBoKScm0Ez1dEbUq1Qw0ksQURHTlTiyx1qL+SdGZfNwjadQTUbiY43hAFAZQz6659tXKokNpgkuP4aXYGA9VUdGW+P8NVlc8H7ZOJJsCCfwabo/7KS4o+fE4+pejid3pwv7ib99ACfVaCZm+clFZZ9O6oOEGcD+rRWMNMGM2iS9PFSEdDA3SfHrt4gUeqzOpyFhbuQv+m8RPuWiFfNmH4geRHxfSPht89Lha9Qx1zdyc1e7SQHjSKdQqKZ5ds+O+ZLd09PLZqx6XlTPVVyQsV5vc4nByBBR+JY1tn12FR2+eow1MvVg8RNNMf9UGrpJ1lEpL+1WxzRIDObeeHKklmbBP4ExvH2dRJAOAYIp0KekBfgXBFi39XQP53ZilFP06mTOrGm3p7dqDEicUiuPOfusy10jet1NNKr5XXrN6u2SiJK6CsldBtgOl66bF8fBWMOb4JM72xCvj58vIOgz3PLwpueK6xuIFPfeCIeOH35R9Md0N/Vzhjm3jU4WY6WJ6b9uXRRLCYLBSqBnthoipQ6EYKemrvaUlJmmUaQls9chF4J8M8ldXFd8G1U0+9RuAU=
