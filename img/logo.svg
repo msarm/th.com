@@ -27,13 +27,8 @@
  <g>
   <title>Layer 1</title>
   <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_2" y="39.328857" x="119.916019" stroke-width="0" stroke="#000000" fill="#ff007f">TryHomeo</text>
-  <text fill="#7f0000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="98.351563" y="29.53125" id="svg_1" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" stroke="#ff005f"/>
   <path stroke="#000000" transform="rotate(90 197.17568969726562,22.57365036010744) " id="svg_19" d="m175.017349,40.004406l22.158859,-34.861511l22.157806,34.861511l-44.316666,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ff007f"/>
-  <path id="svg_21" stroke="#000000" transform="rotate(-90 17.617919921875004,22.5428466796875) " d="m-4.540413,39.973602l22.158859,-34.861511l22.157799,34.861511l-44.316658,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ff007f"/>
-  <image xlink:href="file:///Users/Gowsalya/Downloads/symbol74.svg" id="svg_24" height="48" width="48" y="-10.116211" x="104.115475"/>
-  <path id="svg_26" stroke="#000000" transform="rotate(90 197.17568969726562,22.57365036010744) " d="m175.017349,40.004406l22.158859,-34.861511l22.157806,34.861511l-44.316666,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ff007f"/>
-  <g id="svg_31"/>
+  <path id="svg_21" stroke="#000000" transform="rotate(-90 17.617916107177738,22.5428466796875) " d="m-4.540413,39.973602l22.158859,-34.861511l22.157799,34.861511l-44.316658,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ff007f"/>
   <use x="-34.48914" y="-363.754627" transform="matrix(0.14650058304829372,0,0,0.128981040309077,40.254195318461534,47.70060771763625) " xlink:href="#svg_53" id="svg_54"/>
-  <g id="svg_55"/>
  </g>
 </svg>

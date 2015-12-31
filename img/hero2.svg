@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<svg width="1250" height="512" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+
+ <g>
+  <title>Layer 2</title>
+  <rect stroke="url(#svg_6)" id="svg_5" height="512.000023" width="1248.999965" y="-2.000012" x="4.555576" opacity="0.1" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#00bfbf"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text style="cursor: move;" stroke="#000000" transform="matrix(2.563214260470534,0,0,2.6124893816991563,-366.93498589642616,-79.56296385390239) " fill="#b7aeae" stroke-width="0" x="269.317224" y="56.202296" id="svg_1" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold">your health</text>
+  <text stroke="#000000" fill="#b7aeae" stroke-width="0" x="263.288768" y="129.647795" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="matrix(2.5937947267379142,0,0,2.695128569598175,-374.85799011322945,-175.1319370433136) " id="svg_2">your body</text>
+  <text stroke="#000000" fill="#b7aeae" stroke-width="0" x="291.966265" y="169.890023" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="matrix(2.5937947267379142,0,0,2.695128569598175,-374.85799011322945,-175.1319370433136) " id="svg_3">the best doctor</text>
+ </g>
+</svg>

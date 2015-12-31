@@ -3,12 +3,12 @@ title: TryHomeo.com | Delivering the best in Homeopathy.
 description: "Our clinic delivers the best in Homeopathy."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tryhomeo.com" # the name of your domain
-logo_url: img/logo2.png
+logo_url: img/logo.svg
 site_name: TryHomeo.com
 
 # Hero
 hero: 
-    hero_img: hero.svg
+    hero_img: hero2.svg
     hero_title: TryHomeo
     hero_description: Delivering the best in Homeopathy.
 
