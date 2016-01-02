@@ -64,4 +64,9 @@ exclude: [
 
 # Theme Settings
 analytics: "UA-5456627-2"
+
+# Google webmaster tools
 google_verification: "Mek1L3OzeZBBNiNvCYdXvKvjmKko9LwAMAeQiFE4j_g"
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify: 8687E1380C3A475BC97265D76EFD65D4
