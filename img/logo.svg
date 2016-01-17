@@ -1,34 +1,160 @@
-<?xml version="1.0"?>
-<svg width="215" height="45" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
- <defs>
-  <symbol id="svg_20" height="210" width="210" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg">
-   <g>
-    <title>Layer 1</title>
-    <path d="m11.842,145.348999l0,30l38.329001,0l0,-65.604996l26.299,0c1.878998,0 3.722,-0.051003 5.529999,-0.152l28.328003,35.482994l-33.192001,34.925003l-19.347,0l0,30l32.222,0l39.212006,-41.259995l32.939987,41.259995l35.99501,0l0,-30l-21.557999,0l-26.514999,-33.210999l28.654999,-30.152l19.416992,0l0,-30l-32.291992,0l-34.675003,36.485001l-17.733002,-22.211998c15.949997,-9.269005 25.018005,-25.423004 25.018005,-46.515003c0.000992,-33.552 -23.758003,-54.395 -62.005005,-54.395l-37.628002,0l-18.671,0l-8.329,0l0,30l8.329,0l0,115.348999l-8.329,0zm38.329001,-115.348999l26.299,0c32.005997,0 32.005997,18.361 32.005997,24.396c0,5.555 -0.001999,21.165997 -22.265999,24.651997c-3.483002,0.342003 -6.495003,0.593002 -9.739998,0.593002l-26.299,0l0,-49.640999z" id="svg_18" fill="#ff007f"/>
-    <g id="svg_17"/>
-    <g id="svg_16"/>
-    <g id="svg_15"/>
-    <g id="svg_14"/>
-    <g id="svg_13"/>
-    <g id="svg_12"/>
-    <g id="svg_11"/>
-    <g id="svg_10"/>
-    <g id="svg_9"/>
-    <g id="svg_8"/>
-    <g id="svg_7"/>
-    <g id="svg_6"/>
-    <g id="svg_5"/>
-    <g id="svg_4"/>
-    <g id="svg_3"/>
-   </g>
-  </symbol>
- </defs>
- <g>
-  <title>Layer 1</title>
-  <text fill="#ff007f" stroke="#000000" stroke-width="0" x="121.791019" y="39.328857" id="svg_2" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve">TryHomeo</text>
-  <path fill="#ff007f" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m175.017349,40.00441l22.158859,-34.86152l22.157806,34.86152l-44.316666,0z" id="svg_19" transform="rotate(90 197.17568969726562,22.57365036010744) " stroke="#000000"/>
-  <path fill="#ff007f" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m-4.54041,39.973598l22.15886,-34.861508l22.157799,34.861508l-44.316659,0z" transform="rotate(-90 17.617919921875004,22.542844772338867) " stroke="#000000" id="svg_21"/>
-  <use x="899.742499" y="5.988372" transform="matrix(0.14643872301633207,0,0,0.13067860727351543,-94.58956979102578,-0.1808895209751832) " xlink:href="#svg_20" id="svg_22"/>
- </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="215"
+   height="45"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo.svg">
+  <metadata
+     id="metadata37">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="851"
+     id="namedview35"
+     showgrid="false"
+     inkscape:zoom="4.6976744"
+     inkscape:cx="80.657392"
+     inkscape:cy="33.077581"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+  <defs
+     id="defs4">
+    <symbol
+       id="svg_20"
+       height="210"
+       width="210">
+      <g
+         id="g7">
+        <title
+           id="title9">Layer 1</title>
+        <path
+           d="m11.842,145.348999l0,30l38.329001,0l0,-65.604996l26.299,0c1.878998,0 3.722,-0.051003 5.529999,-0.152l28.328003,35.482994l-33.192001,34.925003l-19.347,0l0,30l32.222,0l39.212006,-41.259995l32.939987,41.259995l35.99501,0l0,-30l-21.557999,0l-26.514999,-33.210999l28.654999,-30.152l19.416992,0l0,-30l-32.291992,0l-34.675003,36.485001l-17.733002,-22.211998c15.949997,-9.269005 25.018005,-25.423004 25.018005,-46.515003c0.000992,-33.552 -23.758003,-54.395 -62.005005,-54.395l-37.628002,0l-18.671,0l-8.329,0l0,30l8.329,0l0,115.348999l-8.329,0zm38.329001,-115.348999l26.299,0c32.005997,0 32.005997,18.361 32.005997,24.396c0,5.555 -0.001999,21.165997 -22.265999,24.651997c-3.483002,0.342003 -6.495003,0.593002 -9.739998,0.593002l-26.299,0l0,-49.640999z"
+           id="svg_18"
+           fill="#ff007f" />
+        <g
+           id="svg_17" />
+        <g
+           id="svg_16" />
+        <g
+           id="svg_15" />
+        <g
+           id="svg_14" />
+        <g
+           id="svg_13" />
+        <g
+           id="svg_12" />
+        <g
+           id="svg_11" />
+        <g
+           id="svg_10" />
+        <g
+           id="svg_9" />
+        <g
+           id="svg_8" />
+        <g
+           id="svg_7" />
+        <g
+           id="svg_6" />
+        <g
+           id="svg_5" />
+        <g
+           id="svg_4" />
+        <g
+           id="svg_3" />
+      </g>
+    </symbol>
+  </defs>
+  <text
+     style="font-size:22.33774376px;font-family:Sans-serif;text-anchor:middle;fill:#ff007f;stroke:#000000;stroke-width:0;fill-opacity:1;"
+     xml:space="preserve"
+     font-size="24"
+     id="svg_2"
+     y="39.386086"
+     x="119.90797"
+     transform="scale(1.0280536,0.97271192)"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';fill:#ff007f;fill-opacity:1;"
+       id="tspan4737">TryHomeo</tspan></text>
+  <path
+     style="fill:#ff007f;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+     inkscape:connector-curvature="0"
+     id="svg_19"
+     d="m 180.17067,0.41531 34.86152,22.15886 -34.86152,22.1578 0,-44.31666 z"
+     stroke-linecap="null"
+     stroke-linejoin="null" />
+  <path
+     style="fill:#ff007f;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+     inkscape:connector-curvature="0"
+     id="svg_21"
+     d="M 35.048673,44.701175 0.1871651,22.542315 35.048673,0.384516 l 0,44.316659 z"
+     stroke-linecap="null"
+     stroke-linejoin="null" />
+  <g
+     id="g4693"
+     transform="matrix(0.14538889,0,0,0.13635078,41.184662,0.07920985)">
+    <title
+       id="title4695">Layer 1</title>
+    <path
+       d="m 11.842,145.349 0,30 38.329001,0 0,-65.605 26.299,0 c 1.878998,0 3.722,-0.051 5.529999,-0.152 l 28.328,35.483 -33.191998,34.925 -19.347,0 0,30 32.222,0 39.212008,-41.26 32.93998,41.26 35.99501,0 0,-30 -21.55799,0 -26.515,-33.211 28.655,-30.152 19.41699,0 0,-29.999999 -32.29199,0 L 131.19,123.122 113.457,100.91 C 129.407,91.640999 138.47501,75.487 138.47501,54.395001 138.476,20.843001 114.717,9.9999998e-7 76.470001,9.9999998e-7 l -37.628002,0 -18.671,0 -8.329,0 0,30.00000000000002 8.329,0 0,115.348999 -8.329,0 z M 50.171001,30 l 26.299,0 C 108.476,30 108.476,48.361 108.476,54.396 c 0,5.555 -0.002,21.165997 -22.266001,24.651997 -3.483002,0.342003 -6.495003,0.593002 -9.739998,0.593002 l -26.299,0 0,-49.640999 z"
+       id="svg_1"
+       inkscape:connector-curvature="0"
+       style="fill:#ff007f" />
+    <g
+       id="svg_2-1" />
+    <g
+       id="svg_3-0" />
+    <g
+       id="svg_4-0" />
+    <g
+       id="svg_5-1" />
+    <g
+       id="svg_6-4" />
+    <g
+       id="svg_7-8" />
+    <g
+       id="svg_8-8" />
+    <g
+       id="svg_9-1" />
+    <g
+       id="svg_10-0" />
+    <g
+       id="svg_11-5" />
+    <g
+       id="svg_12-4" />
+    <g
+       id="svg_13-7" />
+    <g
+       id="svg_14-0" />
+    <g
+       id="svg_15-0" />
+    <g
+       id="svg_16-2" />
+  </g>
 </svg>
