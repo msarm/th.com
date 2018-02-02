@@ -1,0 +1,76 @@
+# Site settings
+title: TryHomeo.com | Delivering the best in Homeopathy.
+description: "Our clinic delivers the best in Homeopathy. We have experienced Homeopath located at Trichy, Tamil Nadu, INDIA."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://tryhomeo.com" # the name of your domain
+logo_url: img/logo.svg
+site_name: TryHomeo.com
+email: doctor@tryhomeo.com
+email_cc: msarm@live.com
+
+# Hero
+hero:
+    hero_img: hero2.png
+    hero_title: TryHomeo
+    hero_description: Delivering the best in Homeopathy.
+
+# Contact form
+api_token: a91bda7d8c8742db5a154e162f4ed020
+
+# Contact info
+contact:
+    phone: +91 8144009060
+    emergency: +91 431 2514140
+    email: doctor@tryhomeo.com
+    address: A-124, JaiNagar, Thiruverambur, Trichy - 620013, Tamil Nadu, INDIA
+
+# Opening hours
+monday_friday: 10:00 AM – 08:00 PM
+saturday: 08:00 AM – 08:00 PM
+sunday: 08:00 AM – 01:00 PM
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax.jpg
+
+# Map
+map:
+    zoom: 17
+    address : "Dr. R Ramasamy A-124, Jai Nagar Thiruverumbur"
+    address_details: svg/min/logo.svg
+
+# Social settings
+facebook: http://facebook.com/tryhomeo
+twitter: http://twitter.com/tryhomeo
+instagram: http://instagram.com
+youtube: http://youtube.com
+skype: skype:obaez_design?userinfo
+feed: yes
+
+# Footer
+copyright: © 2015 TryHomeo - All rights reserved
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore,
+    vendor
+]
+
+# Theme Settings
+analytics: "UA-5456627-2"
+
+# Google webmaster tools
+google_verification: "Mek1L3OzeZBBNiNvCYdXvKvjmKko9LwAMAeQiFE4j_g"
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify: 8687E1380C3A475BC97265D76EFD65D4
+
+#http://www.color-hex.com/color/3dadb2
